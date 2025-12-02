@@ -6,21 +6,21 @@ This research was conducted between March and October 2025 to better understand 
 
 ## Key Topics Covered:
 
--Interest levels in technology, AI, gaming, cinematography, marketing, and more
--Event participation patterns and preferences
--Motivations and challenges for community engagement
--Preferences for online vs. in-person events
--The role of communities in skill development
+- Interest levels in technology, AI, gaming, cinematography, marketing, and more
+- Event participation patterns and preferences
+- Motivations and challenges for community engagement
+- Preferences for online vs. in-person events
+- The role of communities in skill development
 
 ## Viewing the Report
 You can view the full report online or download the PDF from the repository.
 
 ## Key Findings
 
--84% of respondents cited "gaining new knowledge" as their primary motivation for attending events.
--Strong preference for in-person events (75%) over online formats (43%).
--Instagram (72%) and word-of-mouth (65.5%) are the primary channels for event discovery.
--Engagement quality, overall organization, and content depth are the main challenges faced by participants.
+- 84% of respondents cited "gaining new knowledge" as their primary motivation for attending events.
+- Strong preference for in-person events (75%) over online formats (43%).
+- Instagram (72%) and word-of-mouth (65.5%) are the primary channels for event discovery.
+- Engagement quality, overall organization, and content depth are the main challenges faced by participants.
 
 ## Authors
 Silva Bashllari - Data Scientist and Community Builder
