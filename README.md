@@ -46,9 +46,9 @@ NonCommercial — You may not use the material for commercial purposes
 NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material
 
 For more information about this license, visit: https://creativecommons.org/licenses/by-nc-nd/4.0/
-Acknowledgments
-This study was conducted as a free contribution to the public benefit, with no commercial interests. Special thanks to:
 
+## Acknowledgments
+This study was conducted as a free contribution to the public benefit, with no commercial interests. Special thanks to:
 C4Communities project (supported by EU4Innovation)
 Partner communities: NEXUS Albania, DuaCrypto, Albanian Gaming Community, Kineastja, Data and AI Tirana Community, Salesforce Trailblazer Community, AlbaniaTech, and Coolab Community
 
