@@ -23,15 +23,13 @@ You can view the full report online or download the PDF from the repository.
 - Engagement quality, overall organization, and content depth are the main challenges faced by participants.
 
 ## Authors
-Silva Bashllari - Data Scientist and Community Builder
-Contact: sbashllari@gmail.com
-Edis Hasaj - Software Developer and Machine Learning Engineer
+- Silva Bashllari - Data Scientist and Community Builder | Contact: sbashllari@gmail.com
+- Edis Hasaj - Software Developer and Machine Learning Engineer | Contact: edishasaj01@gmail.com
 
 
 ### Special thanks also go to the following contributors in design and organizing:
 
-Lorena Gjana - Design and Data Collection
-Dea Peka - Design and Data Collection
+Lorena Gjana - Design and Data Collection and Dea Peka - Design and Data Collection
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
