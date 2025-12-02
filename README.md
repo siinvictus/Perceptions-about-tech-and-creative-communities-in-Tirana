@@ -55,7 +55,7 @@ Partner communities: NEXUS Albania, DuaCrypto, Albanian Gaming Community, Kineas
 ## Citation
 If you reference this study, please cite as:
 Bashllari, S., & Hasaj, E. (2025). The Perceptions of Young People in Tirana w.r.t. 
-Tech & Creative Communities. C4Communities. https://www.c4communities.al
+Tech & Creative Communities. 
 
 ## Contact
 For questions regarding the research content: sbashllari@gmail.com
