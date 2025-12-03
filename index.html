@@ -15,7 +15,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
             min-height: 100vh;
             padding: 20px;
         }
@@ -30,8 +30,8 @@
         }
         
         header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #d4ff00;
             padding: 60px 40px;
             text-align: center;
         }
@@ -57,15 +57,15 @@
         }
         
         h2 {
-            color: #667eea;
+            color: #d4ff00;
             font-size: 2em;
             margin-bottom: 20px;
-            border-bottom: 3px solid #667eea;
+            border-bottom: 3px solid #d4ff00;
             padding-bottom: 10px;
         }
         
         h3 {
-            color: #764ba2;
+            color: #1a1a1a;
             font-size: 1.4em;
             margin: 25px 0 15px 0;
         }
@@ -78,12 +78,12 @@
         }
         
         .stat-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #d4ff00;
             padding: 30px;
             border-radius: 15px;
             text-align: center;
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 5px 15px rgba(212, 255, 0, 0.3);
             transition: transform 0.3s ease;
         }
         
@@ -104,7 +104,7 @@
         
         .key-findings {
             background: #f8f9fa;
-            border-left: 5px solid #667eea;
+            border-left: 5px solid #d4ff00;
             padding: 25px;
             border-radius: 10px;
             margin: 20px 0;
@@ -125,9 +125,45 @@
             content: "→";
             position: absolute;
             left: 0;
-            color: #667eea;
+            color: #d4ff00;
             font-weight: bold;
             font-size: 1.3em;
+        }
+        
+        .recommendation-section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 25px 0;
+        }
+        
+        .recommendation-section h3 {
+            color: #1a1a1a;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #d4ff00;
+        }
+        
+        .recommendation-item {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            border-left: 4px solid #d4ff00;
+        }
+        
+        .recommendation-item strong {
+            color: #1a1a1a;
+            font-size: 1.1em;
+        }
+        
+        .sub-challenge {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0 10px 20px;
+            border-radius: 8px;
+            border-left: 3px solid #a8c700;
         }
         
         .authors {
@@ -147,14 +183,14 @@
         }
         
         .author-card:hover {
-            border-color: #667eea;
-            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.2);
+            border-color: #d4ff00;
+            box-shadow: 0 5px 20px rgba(212, 255, 0, 0.2);
         }
         
         .author-name {
             font-size: 1.3em;
             font-weight: bold;
-            color: #667eea;
+            color: #1a1a1a;
             margin-bottom: 8px;
         }
         
@@ -166,19 +202,22 @@
         .btn {
             display: inline-block;
             padding: 15px 35px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #d4ff00;
             text-decoration: none;
             border-radius: 50px;
             font-weight: bold;
             margin: 10px;
             transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 5px 15px rgba(212, 255, 0, 0.3);
+            border: 2px solid #d4ff00;
         }
         
         .btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 8px 25px rgba(212, 255, 0, 0.4);
+            background: #d4ff00;
+            color: #1a1a1a;
         }
         
         .license-info {
@@ -254,23 +293,23 @@
                 <h2>Research Timeline</h2>
                 <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin-top: 20px;">
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
-                        <div style="border-left: 4px solid #667eea; padding-left: 15px;">
-                            <strong style="color: #667eea;">Phase 1: Study Design & Testing</strong>
+                        <div style="border-left: 4px solid #d4ff00; padding-left: 15px;">
+                            <strong style="color: #1a1a1a;">Phase 1: Study Design & Testing</strong>
                             <p style="margin-top: 8px; color: #6c757d;">5 – 15 April 2025</p>
                             <p style="margin-top: 8px; font-size: 0.9em;">Survey framework development, indicator definition, and pilot testing</p>
                         </div>
-                        <div style="border-left: 4px solid #764ba2; padding-left: 15px;">
-                            <strong style="color: #764ba2;">Phase 2: Data Collection</strong>
+                        <div style="border-left: 4px solid #a8c700; padding-left: 15px;">
+                            <strong style="color: #1a1a1a;">Phase 2: Data Collection</strong>
                             <p style="margin-top: 8px; color: #6c757d;">16 – 30 April 2025</p>
                             <p style="margin-top: 8px; font-size: 0.9em;">Digital distribution through partner communities and response gathering</p>
                         </div>
-                        <div style="border-left: 4px solid #667eea; padding-left: 15px;">
-                            <strong style="color: #667eea;">Phase 3: Data Analysis</strong>
+                        <div style="border-left: 4px solid #d4ff00; padding-left: 15px;">
+                            <strong style="color: #1a1a1a;">Phase 3: Data Analysis</strong>
                             <p style="margin-top: 8px; color: #6c757d;">13 May - 15 July 2025</p>
                             <p style="margin-top: 8px; font-size: 0.9em;">Cleaning, coding, pattern identification, and demographic comparison</p>
                         </div>
-                        <div style="border-left: 4px solid #764ba2; padding-left: 15px;">
-                            <strong style="color: #764ba2;">Phase 4: Reporting</strong>
+                        <div style="border-left: 4px solid #a8c700; padding-left: 15px;">
+                            <strong style="color: #1a1a1a;">Phase 4: Reporting</strong>
                             <p style="margin-top: 8px; color: #6c757d;"> 1 September - October 2025</p>
                             <p style="margin-top: 8px; font-size: 0.9em;">Insight consolidation, cross-validation, and documentation</p>
                         </div>
@@ -292,41 +331,99 @@
                 </div>
             </div>
 
-            <div class = "section">
-                <h2> Recommandations and main results </h2>
-                    <ul>
-                        <li>  Most people participate rarely in events (38.7%), which clearly signifies that more work needs to be done from the communities to allow for retention and more frequent participation. 
-                             Furthermore, if we consider frequent attendees that participate in  events once a month and/or more than once a month, only 18% of the respondents can be classified as such. </li>
-                        <li>  Most events are discovered through social media, more specifically Instagram coming in the first place (72%). However, surprisingly “Word of Mouth” comes in second place before any other social media (65.5%). 
-                            Thus, the conclusion that can be derived is that community managers and specifically the team responsible for communication and marketing can have an initial idea on how to distribute the budget for social
-                            media promotion. However, it must not be forgotten that word of mouth is still very important and impressions and experiences derive further participation. </li>
-                        <li> Most respondents have positive feelings when participating in events such as curiosity (66%) and in terms of welcomeness level, the majority feel sufficiently welcomed (44%).
-                            However, more work can be done to create a more hospitable environment. </li>
-                        <li>  In terms of preference between the online and physical events, the data clearly show a stronger preference for in person events, though the online ones have some traction as well. 
-                            Even for tech communities, that could be thought to be in the forefront of the usage of software tools for community engagement, the preference for in-person events is by far stronger than that for online ones,
-                            where 75% chose 3, the highest scale of preference for in-person events compared to 43% choosing the same preference level for online events. </li>
-                        <li> In terms of the reasons people participate in the events organized by the communities, 84% of the respondents chose as the most important motivation “gaining new  knowledge”. The second most voted reason was “deepening knowledge”. 
-                            This highlights the fact that the participants are very knowledge-driven and the organizers of communities should pay careful attention to the substance of the events as opposed to more secondary factors.</li>
-                        <li>  Last but not least, we tried to understand through two open ended questions, which in essence are the different sides of the same coin, which are the main challenges people encounter when they partake in community-driven events and what would
-                             motivate people to participate more in such events. 
-                            <ul>
-                                <li> Challenge 1: The top challenge was one that the researchers here labeled as "engagement"  or lack of (28.8%). In essence, many people felt that the events were not engaging enough, for example some stating they were only superficial
-                                      presentations and not allowing space for discussion. </li>
-                                <li> Challenge 2: The second top challenge referred to “overall organization” (24%), such as  but not limited to: timing, disorganized logistics, technical issues etc. </li>
-                                <li> Challenge 3: The third challenge refers to issues related to the “content” (20%), such  as but not limited to: the superficiality of the content, a too theoretical
-                                     approach, getting out of topic, etc. </li>
-                                <li> Other Challeges: The other challenges referred to “authenticity and value doubt” where the respondents doubted the value of the events and thought they were
-                                     fictitious; inner-outer group dynamics between the organizers or frequent attendees and the rest of the audience and scheduling issues. </li>
-                            </ul>
-                        </li> What can be done better and motivate young people in Tirana to participate in more events: </li>
-                        <ul>
-                            <li> The top suggestion was to introduce “new knowledge and content” (18%) in order to boost the motivation to participate. This is a reinforcement of the fact that the participants are knowledge-driven that came as a conclusion throughout the study.</li>
-                            <li> The second top suggestion was to make the events more engaging (15.6%) and the third was “networking” (14.2%). The idea was to allow for more space for discussions and the organizers serving as facilitators for a wider engagement during the event and 
-                                not only with the people they are already familiar with. This would require the organizers to really inhibit their role and to become truly community builders.</li>
-                            <li> Other suggestions encompassed: introducing "transactional values” in  events such as food, drinks or other tangible benefits, a “clear agenda” of what the events will comprise of, and matters of content such as depth and practically to ensure true learning </li>
-                        </ul>
-                    </ul>
+            <div class="section">
+                <h2>Recommendations & Main Results</h2>
+                
+                <div class="recommendation-section">
+                    <h3>📊 Participation Patterns</h3>
+                    <div class="recommendation-item">
+                        <strong>Low Frequency of Engagement:</strong>
+                        <p>Most people participate rarely in events (38.7%), clearly signifying that more work needs to be done from the communities to allow for retention and more frequent participation. Furthermore, if we consider frequent attendees that participate in events once a month and/or more than once a month, only 18% of the respondents can be classified as such.</p>
+                    </div>
                 </div>
+
+                <div class="recommendation-section">
+                    <h3>📢 Event Discovery Channels</h3>
+                    <div class="recommendation-item">
+                        <strong>Social Media & Word of Mouth Dominance:</strong>
+                        <p>Most events are discovered through social media, more specifically Instagram coming in first place (72%). However, surprisingly "Word of Mouth" comes in second place before any other social media (65.5%). The conclusion that can be derived is that community managers and specifically the team responsible for communication and marketing can have an initial idea on how to distribute the budget for social media promotion. However, it must not be forgotten that word of mouth is still very important and impressions and experiences drive further participation.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation-section">
+                    <h3>💭 Participant Experience</h3>
+                    <div class="recommendation-item">
+                        <strong>Positive Feelings & Room for Improvement:</strong>
+                        <p>Most respondents have positive feelings when participating in events such as curiosity (66%) and in terms of welcomeness level, the majority feel sufficiently welcomed (44%). However, more work can be done to create a more hospitable environment.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation-section">
+                    <h3>🏢 Format Preferences</h3>
+                    <div class="recommendation-item">
+                        <strong>Strong Preference for In-Person Events:</strong>
+                        <p>The data clearly show a stronger preference for in-person events, though online ones have some traction as well. Even for tech communities that could be thought to be in the forefront of the usage of software tools for community engagement, the preference for in-person events is by far stronger than that for online ones, where 75% chose 3, the highest scale of preference for in-person events compared to 43% choosing the same preference level for online events.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation-section">
+                    <h3>🎯 Primary Motivations</h3>
+                    <div class="recommendation-item">
+                        <strong>Knowledge-Driven Participation:</strong>
+                        <p>In terms of the reasons people participate in the events organized by the communities, 84% of the respondents chose as the most important motivation "gaining new knowledge". The second most voted reason was "deepening knowledge". This highlights the fact that the participants are very knowledge-driven and the organizers of communities should pay careful attention to the substance of the events as opposed to more secondary factors.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation-section">
+                    <h3>⚠️ Main Challenges Identified</h3>
+                    <p style="margin-bottom: 20px;">Through two open-ended questions, we identified the main challenges people encounter when they participate in community-driven events:</p>
+                    
+                    <div class="sub-challenge">
+                        <strong>Challenge 1: Lack of Engagement (28.8%)</strong>
+                        <p>The top challenge was one that the researchers labeled as "engagement" or lack thereof. In essence, many people felt that the events were not engaging enough, for example some stating they were only superficial presentations and not allowing space for discussion.</p>
+                    </div>
+                    
+                    <div class="sub-challenge">
+                        <strong>Challenge 2: Overall Organization (24%)</strong>
+                        <p>The second top challenge referred to "overall organization", such as but not limited to: timing, disorganized logistics, technical issues, etc.</p>
+                    </div>
+                    
+                    <div class="sub-challenge">
+                        <strong>Challenge 3: Content Issues (20%)</strong>
+                        <p>The third challenge refers to issues related to the "content", such as but not limited to: the superficiality of the content, a too theoretical approach, getting out of topic, etc.</p>
+                    </div>
+                    
+                    <div class="sub-challenge">
+                        <strong>Other Challenges</strong>
+                        <p>The other challenges referred to "authenticity and value doubt" where the respondents doubted the value of the events and thought they were fictitious; inner-outer group dynamics between the organizers or frequent attendees and the rest of the audience; and scheduling issues.</p>
+                    </div>
+                </div>
+
+                <div class="recommendation-section">
+                    <h3>💡 Suggestions for Improvement</h3>
+                    <p style="margin-bottom: 20px;">What can be done better to motivate young people in Tirana to participate in more events:</p>
+                    
+                    <div class="sub-challenge">
+                        <strong>Top Suggestion: New Knowledge & Content (18%)</strong>
+                        <p>The top suggestion was to introduce "new knowledge and content" in order to boost the motivation to participate. This is a reinforcement of the fact that the participants are knowledge-driven, a conclusion that emerged throughout the study.</p>
+                    </div>
+                    
+                    <div class="sub-challenge">
+                        <strong>Second Priority: More Engagement (15.6%)</strong>
+                        <p>Make the events more engaging by allowing for more space for discussions and having the organizers serve as facilitators for wider engagement during the event and not only with the people they are already familiar with. This would require the organizers to truly inhabit their role and become genuine community builders.</p>
+                    </div>
+                    
+                    <div class="sub-challenge">
+                        <strong>Third Priority: Networking Opportunities (14.2%)</strong>
+                        <p>Create structured opportunities for participants to connect with each other, not just with speakers or organizers.</p>
+                    </div>
+                    
+                    <div class="sub-challenge">
+                        <strong>Additional Suggestions</strong>
+                        <p>Other suggestions encompassed: introducing "transactional values" in events such as food, drinks, or other tangible benefits; a "clear agenda" of what the events will comprise; and matters of content such as depth and practicality to ensure true learning.</p>
+                    </div>
+                </div>
+            </div>
             
             <div class="section">
                 <h2>Topics Covered</h2>
@@ -349,14 +446,12 @@
                     <div class="author-card">
                         <div class="author-name">Silva Bashllari</div>
                         <div class="author-title">Data Scientist & Community Builder</div>
-                        <p style="font-size: 0.9em; color: #6c757d; margin: 15px 0;">Master's in Data Science, AI & Machine Learning from Politecnico di Torino</p>
-                        <a href="https://www.linkedin.com/in/silva-bashllari/" class="btn" target="_blank">LinkedIn Profile</a>
+                        <p style="font-size: 0.95em; color: #333; margin: 15px 0; text-align: left; line-height: 1.8;">Silva holds a Master's in Data Science, AI & Machine Learning from Politecnico di Torino. She is passionate about leveraging data to understand social dynamics and strengthen community ecosystems. Her work bridges technical analysis with community development, focusing on evidence-based approaches to youth engagement and tech education.</p>
                     </div>
                     <div class="author-card">
                         <div class="author-name">Edis Hasaj</div>
                         <div class="author-title">Software Developer & ML Engineer</div>
-                        <p style="font-size: 0.9em; color: #6c757d; margin: 15px 0;">Master's in Computer Science (AI) from Eötvös Loránd University</p>
-                        <a href="https://www.linkedin.com/in/edis-hasaj/" class="btn" target="_blank">LinkedIn Profile</a>
+                        <p style="font-size: 0.95em; color: #333; margin: 15px 0; text-align: left; line-height: 1.8;">Edis holds a Master's in Computer Science (AI) from Eötvös Loránd University. With a strong background in software development and machine learning, he is dedicated to building tools and insights that empower communities. His interdisciplinary approach combines technical expertise with a deep commitment to social impact.</p>
                     </div>
                 </div>
             </div>
